@@ -1,29 +1,48 @@
 import Image from "next/image";
+import MyComponent from "./components/MyComponent";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <main className="flex flex-col gap-[32px] row-start-2 sm:items-start">
+        <p className="max-w-(--breakpoint-md) text-lg/7 font-medium text-gray-900 max-sm:px-4 dark:text-gray-400">Edgar E. Rodriguez</p>
+        <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-8xl">
+          Digital products design, development, & strategy.
+        </h1>
+        <p className="font-mono">
+          I am an experienced design technologist who helps businesses achieve their goals through the strategic implementation of digital products.
+        </p>
+        <p className="font">Previous Experience:</p>
+        <div className="flex flex-col sm:flex-row gap-12">
+          <Image
+            src="/indeed.svg"
+            alt="Indeed"
+            width={90}
+            height={60}
+            className=""
+          />
+          <Image
+            src="/bazaarvoice.svg"
+            alt="Bazaarvoice"
+            width={50}
+            height={30}
+            className=""
+          />
+          <Image
+            src="/utep.svg"
+            alt="UTEP"
+            width={50}
+            height={100}
+            className=""
+          />
+          <Image
+            src="/gt.svg"
+            alt="George Town"
+            width={100}
+            height={100}
+            className=""
+          />
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -51,7 +70,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-start justify-start">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
