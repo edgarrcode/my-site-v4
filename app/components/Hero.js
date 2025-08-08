@@ -1,6 +1,15 @@
 import Image from "next/image";
+import TypewriterEffect from "./TypewriterEffect";
 
 export default function Hero() {
+  const taglines = [
+    'Design & Code...',
+    'Concept to Launch...',
+    'Vision & Strategy...',
+    '0 to 1...',
+    '1 to 100...'
+  ];
+
   return (
     <section className="min-h-[75vh] flex items-center justify-center px-6 pt-20">
         <div className="max-w-7xl mx-auto w-full">
@@ -10,9 +19,13 @@ export default function Hero() {
                         <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
                         <span className="text-sm text-gray-400">Available for work</span>
                     </div>
-                    <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-8xl">
-                    Design & Code.
-                    </h1>
+                    <TypewriterEffect
+                      texts={taglines}
+                      typeSpeed={80}
+                      deleteSpeed={40}
+                      pauseTime={2000}
+                      className="text-4xl tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-7xl"
+                    />
                     <p className="font-mono">Edgar is an experienced design technologist who helps organizations achieve their business goals through the strategic implementation of digital products.</p>
                     <p className="font">Previous Experience:</p>
                     <div className="flex flex-col sm:flex-row gap-12">
