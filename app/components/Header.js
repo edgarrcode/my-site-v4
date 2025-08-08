@@ -1,21 +1,21 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 p-6">
-        <div className="flex justify-between items-center">
-            <div className="font-texturina text-2xl bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent">
-                edgar e rodriguez
+    <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
+        <div className="max-w-7xl mx-auto px-6 py-4">
+            <div className="flex justify-between items-center">
+                <div className="text-xl font-semibold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                    
+                    <span className="font-sans">edgar e. rodriguez</span>
+                </div>
+                <div className="hidden md:flex space-x-8">
+                    <a href="#work" className="text-gray-400 hover:text-white transition-colors duration-300">Work</a>
+                    <a href="#about" className="text-gray-400 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Services</a>
+                    <a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
+                </div>
             </div>
-            <div className="hidden md:flex items-center space-x-8 bg-gray-900/80 backdrop-blur-md px-6 py-3 rounded-full border border-gray-700/50">
-                <a href="#home" className="text-sm text-gray-300 hover:text-violet-400 transition-colors">Home</a>
-                <a href="#work" className="text-sm text-gray-300 hover:text-violet-400 transition-colors">Work</a>
-                <a href="#about" className="text-sm text-gray-300 hover:text-violet-400 transition-colors">About</a>
-                <a href="#contact" className="text-sm text-gray-300 hover:text-violet-400 transition-colors">Contact</a>
-            </div>
-            <button className="md:hidden p-2 rounded-lg bg-gray-800/80 backdrop-blur-md border border-gray-700/50">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
         </div>
     </nav>
   );
