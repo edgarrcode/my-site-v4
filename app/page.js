@@ -1,12 +1,13 @@
 import Image from "next/image";
 import MyComponent from "./components/MyComponent";
 import Hero from "./components/Hero";
+import ProjectsList from "./components/ProjectsList";
 
 export default function Home() {
   return (
     <div className="font-sans">
       <Hero />
-      
+      <ProjectsList />
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-start justify-start">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
