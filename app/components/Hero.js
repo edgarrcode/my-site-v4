@@ -23,8 +23,8 @@ export default function Hero() {
                       pauseTime={2000}
                       className="text-4xl tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-7xl"
                     />
-                    <p className="font-mono">Edgar is an experienced design technologist who helps organizations achieve their business goals through the strategic implementation of digital products.</p>
-                    <p className="font-mono">Previous Experience:</p>
+                    <p className="">Edgar is an experienced design technologist who helps organizations achieve their business goals through the strategic implementation of digital products.</p>
+                    <p className="">Previous Experience:</p>
                     <div className="flex flex-col sm:flex-row gap-12">
                       <Image
                         src="/indeed.svg"
@@ -60,13 +60,13 @@ export default function Hero() {
                     <div className="">
                       <Image
                         src="/edgarr.jpg"
-                        alt="George Town"
-                        width={549}
+                        alt="Edgar E. Rodriguez"
+                        width={498}
                         height={549}
                         className="rounded-lg object-cover"
                       />
-                      <p className="mt-4 text-lg font-semibold">Edgar R. Rodriguez</p>
-                      <p className="text-gray-400">Design Technologist, walking under the rain...<br/>Photo by: Ivan Pierre Aguirre.</p>
+                      <p className="mt-4 text-lg">Edgar E. Rodriguez</p>
+                      <p className="text-gray-400">Design Technologist</p>
                     </div>
                   </div>
             </div>
