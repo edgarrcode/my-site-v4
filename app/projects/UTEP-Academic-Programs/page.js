@@ -11,7 +11,7 @@ export default function UTEPAcademicPrograms() {
             Built UTEP's academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.
           </p>
         </div>
-        <div className="mx-auto w-full max-w-lvw pt-20 px-6">
+        <div className="mx-auto w-full max-w-lvw py-20 px-6">
 <div className="grid grid-cols-12 grid-rows-8 gap-4 h-[800px]">
             
     <div className="col-span-6 row-span-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-6 flex flex-col justify-center items-center text-white shadow-lg hover:scale-[1.02] transition-transform duration-300">
@@ -24,26 +24,26 @@ export default function UTEPAcademicPrograms() {
         </div>
     </div>
     
-    <div className="col-span-3 row-span-2 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+    <div className="col-span-3 row-span-2 rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
         <div className="flex items-center justify-between mb-2">
-            <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
-                <div className="w-4 h-4 bg-blue-500 rounded"></div>
-            </div>
-            <span className="text-sm text-gray-500">+12%</span>
-        </div>
-        <h3 className="text-2xl font-bold text-gray-800">2.4K</h3>
-        <p className="text-gray-600 text-sm">Active Users</p>
-    </div>
-    
-    <div className="col-span-3 row-span-2 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-        <div className="flex items-center justify-between mb-2">
-            <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center">
                 <div className="w-4 h-4 bg-green-500 rounded"></div>
             </div>
-            <span className="text-sm text-gray-500">+8%</span>
+            <span className="text-sm text-gray-500">incease icon</span>
         </div>
-        <h3 className="text-2xl font-bold text-gray-800">156</h3>
-        <p className="text-gray-600 text-sm">Projects</p>
+        <h3 className="text-2xl font-bold">+4%</h3>
+        <p className="text-gray-500 text-sm">Conversions Rate</p>
+    </div>
+    
+    <div className="col-span-3 row-span-2 bg-white rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+        <div className="flex items-center justify-between mb-2">
+            <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
+                <div className="w-4 h-4 bg-blue-500 rounded"></div>
+            </div>
+            <span className="text-sm text-gray-500">0-1</span>
+        </div>
+        <h3 className="text-2xl font-bold">20+</h3>
+        <p className="text-gray-500 text-sm">Content Managers Trained</p>
     </div>
     
     <div className="col-span-3 row-span-3 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl p-4 text-white shadow-lg">
@@ -57,7 +57,7 @@ export default function UTEPAcademicPrograms() {
         <p className="text-sm opacity-90 mt-3">Latest creative works</p>
     </div>
     
-    <div className="col-span-3 row-span-3 bg-white rounded-xl p-4 shadow-md border border-gray-100">
+    <div className="col-span-3 row-span-3 bg-white rounded-xl p-4 shadow-md border border-gray-100 relative">
         <div className="flex flex-col items-center text-center h-full justify-center">
             <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mb-3 flex items-center justify-center text-white text-xl font-bold">
                 JD
@@ -70,7 +70,7 @@ export default function UTEPAcademicPrograms() {
         </div>
     </div>
     
-    <div className="col-span-6 row-span-3 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-xl p-4 text-white shadow-lg">
+    <div className="col-span-6 row-span-4 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-xl p-4 text-white shadow-lg">
         <div className="flex items-center justify-between mb-2">
             <h3 className="text-lg font-semibold">Analytics Overview</h3>
             <button className="text-white/80 hover:text-white">
@@ -93,19 +93,16 @@ export default function UTEPAcademicPrograms() {
         </div>
     </div>
     
-    <div className="col-span-2 row-span-2 bg-white rounded-xl p-3 shadow-md border border-gray-100">
-        <h4 className="font-medium text-gray-800 mb-3 text-sm">Quick Actions</h4>
-        <div className="space-y-2">
-            <button className="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 rounded-lg text-sm transition-colors">
-                New Task
-            </button>
-            <button className="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 rounded-lg text-sm transition-colors">
-                Upload
-            </button>
-        </div>
+    <div className="col-span-2 row-span-3 rounded-xl p-3 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 relative">
+        <Image
+            src="/projects/ap/banner-m-1.jpg"
+            alt="UTEP Academic Programs Website Mockup"
+            fill
+            className="object-cover object-top rounded-xl"
+          />
     </div>
     
-    <div className="col-span-2 row-span-2 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl p-3 text-white shadow-lg">
+    <div className="col-span-2 row-span-3 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl p-3 text-white shadow-lg">
         <div className="text-center h-full flex flex-col justify-center">
             <div className="text-2xl mb-1">☀️</div>
             <p className="text-xl font-bold">24°C</p>
@@ -113,63 +110,92 @@ export default function UTEPAcademicPrograms() {
         </div>
     </div>
     
-    <div className="col-span-2 row-span-2 bg-white rounded-xl p-3 shadow-md border border-gray-100">
-        <div className="flex items-center justify-between mb-2">
-            <h4 className="font-medium text-gray-800 text-sm">Notifications</h4>
-            <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-        </div>
-        <div className="space-y-2">
-            <div className="text-xs text-gray-600 p-2 bg-gray-50 rounded">
-                New message received
-            </div>
-            <div className="text-xs text-gray-600 p-2 bg-gray-50 rounded">
-                Task completed
-            </div>
-        </div>
+    <div className="col-span-2 row-span-3 rounded-xl p-3 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 relative">
+        <Image
+            src="/projects/ap/banner-m.jpg"
+            alt="UTEP Academic Programs Website Mockup"
+            fill
+            className="object-cover object-top rounded-xl"
+          />
     </div>
     
 </div>
-
-          <Image
-            src="/projects/ap/preview.png"
-            alt="UTEP Logo"
-            layout="responsive"
-            width={400}  // Aspect ratio reference (not actual size)
-            height={300} // Aspect ratio reference (not actual size)
-            objectFit="contain"
-            className="rounded-lg mb-6"
-          />
         </div>
       </section>
 
       <section className="w-full py-10">
         <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+            <div className="grid grid-cols-[80px_1fr] gap-4 border">
+                <div className="border">
+                    <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
+                        <h2 className="text-sm font-bold leading-4">WHAT?</h2>
+                    </div>
+                </div>
+                <div className="border">
+                    <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">New UTEP Academic Programs Platform</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I built a new digital platform to showcase UTEP's academic programs and connect with prospective students.</p>
+                </div>
+            </div>
+        </div>
+      </section>
 
-
-
-
-<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-gray-800 absolute -left-16">
-  <h2 className="text-sm font-bold leading-4">WHAT?</h2>
-</div>          
-<h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">UTEP Academic Programs Website</h3>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I redesigned and built a new digital platform to showcase UTEP's academic programs. The university needed a way for prospective students to easily explore and learn about degree options, but their existing academic catalog was too technical and focused on course details rather than helping students make career decisions.</p>
-
-
-
-<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-gray-800 absolute -left-16">
-  <h2 className="text-sm font-bold leading-4">WHY?</h2>
-</div>
+      <section className="w-full py-10">
+        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+            <div className="grid grid-cols-[80px_1fr] gap-4">
+                <div className="">
+                    <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
+                        <h2 className="text-sm font-bold leading-4">WHY?</h2>
+                    </div>
+                </div>
+                <div className="">
 <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">The Problem</h3>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The old academic catalog was packed with technical information that worked fine for current students planning their schedules, but it didn't help prospective students understand:</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What each program was actually about</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What career opportunities they could pursue</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Success stories from graduates</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">How programs matched their interests and goals</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The design was also outdated and not engaging - no personalized content, compelling images, or videos that would excite potential students about their future.</p>
+<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The existing academic catalog was packed with technical information that worked fine for current students planning their schedules, but it didn't help prospective students understand:</p>
+<ul className="list-disc pl-5">
+<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What each program was actually about</li>
+<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What career opportunities they could pursue</li>
+<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Success stories from graduates</li>
+<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">How programs matched their interests and goals</li>
+<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The design was also outdated and not engaging - no personalized content, compelling images, or videos that would excite potential students about their future.</li>
+</ul>
+<div className="grid grid-cols-3 md:grid-cols-3 gap-6 mt-6">
+        <Image
+            src="/projects/ap/previous-utep-academic-programs1.png"
+            alt="Previous UTEP Academic Programs Page"
+            width={800}
+            height={400}
+            className="rounded-lg mt-6"
+          />
+        <Image
+            src="/projects/ap/previous-utep-academic-programs2.png"
+            alt="Previous UTEP Academic Programs Page"
+            width={800}
+            height={400}
+            className="rounded-lg mt-6"
+          />
+        <Image
+            src="/projects/ap/previous-utep-academic-programs3.png"
+            alt="Previous UTEP Academic Programs Page"
+            width={800}
+            height={400}
+            className="rounded-lg mt-6"
+          />
+</div>
+
+                </div>
+            </div>
+        </div>
+      </section>
 
 
 
-<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-gray-800 absolute -left-16">
+
+        
+
+
+
+
+
+<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
   <h2 className="text-sm font-bold leading-4">WHO?</h2>
 </div>
 
@@ -183,7 +209,7 @@ export default function UTEPAcademicPrograms() {
 
 
 
-<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-gray-800 absolute -left-16">
+<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
   <h2 className="text-sm font-bold leading-4">HOW?</h2>
 </div>
 <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">My Process & Contributions</h3>
@@ -242,10 +268,6 @@ export default function UTEPAcademicPrograms() {
     </div>
 </div>
 
-
-        </div>
-      </section>
-      
     </div>
   );
 }
