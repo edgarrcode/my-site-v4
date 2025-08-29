@@ -1,10 +1,31 @@
 import Image from "next/image";
 import { ArrowRight, Users, Target, Lightbulb, BarChart3, CheckCircle, ExternalLink } from 'lucide-react';
+import ExpandableImage from "../../components/ExpandableImage";
+import ExpandableGallery from "../../components/ExpandableGallery";
+import ExpandableContent from "../../components/ExpandableContent";
 
 export default function UTEPAcademicPrograms() {
+  const projectImages = [
+    {
+      src: "/projects/utep-homepage.png",
+      alt: "Homepage design mockup",
+      caption: "Main homepage layout with hero section and navigation"
+    },
+    {
+      src: "/projects/utep-homepage.png",
+      alt: "Mobile responsive design",
+      caption: "Mobile-first responsive design implementation"
+    },
+    {
+      src: "/projects/utep-homepage.png",
+      alt: "Admin dashboard interface",
+      caption: "Administrative dashboard with analytics and controls"
+    }
+  ];
+
   return (
     <div className="">
-      <section className="w-full py-30">
+      <section className="w-full pt-30 pb-10">
         <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
           <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-5xl lg:text-6xl xl:text-7xl">UTEP Academic Programs: Transforming University Program Discovery</h1>
           <p className="text-lg">
@@ -109,7 +130,7 @@ export default function UTEPAcademicPrograms() {
             <p className="text-sm opacity-90">Sunny</p>
         </div>
     </div>
-    
+
     <div className="col-span-2 row-span-3 rounded-xl p-3 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 relative">
         <Image
             src="/projects/ap/banner-m.jpg"
@@ -125,13 +146,13 @@ export default function UTEPAcademicPrograms() {
 
       <section className="w-full py-10">
         <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
-            <div className="grid grid-cols-[80px_1fr] gap-4 border">
-                <div className="border">
+            <div className="grid grid-cols-[80px_1fr] gap-4">
+                <div className="">
                     <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
                         <h2 className="text-sm font-bold leading-4">WHAT?</h2>
                     </div>
                 </div>
-                <div className="border">
+                <div className="">
                     <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">New UTEP Academic Programs Platform</h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I built a new digital platform to showcase UTEP's academic programs and connect with prospective students.</p>
                 </div>
@@ -148,46 +169,82 @@ export default function UTEPAcademicPrograms() {
                     </div>
                 </div>
                 <div className="">
-<h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">The Problem</h3>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The existing academic catalog was packed with technical information that worked fine for current students planning their schedules, but it didn't help prospective students understand:</p>
-<ul className="list-disc pl-5">
-<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What each program was actually about</li>
-<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What career opportunities they could pursue</li>
-<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Success stories from graduates</li>
-<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">How programs matched their interests and goals</li>
-<li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The design was also outdated and not engaging - no personalized content, compelling images, or videos that would excite potential students about their future.</li>
-</ul>
-<div className="grid grid-cols-3 md:grid-cols-3 gap-6 mt-6">
-        <Image
-            src="/projects/ap/previous-utep-academic-programs1.png"
-            alt="Previous UTEP Academic Programs Page"
-            width={800}
-            height={400}
-            className="rounded-lg mt-6"
-          />
-        <Image
-            src="/projects/ap/previous-utep-academic-programs2.png"
-            alt="Previous UTEP Academic Programs Page"
-            width={800}
-            height={400}
-            className="rounded-lg mt-6"
-          />
-        <Image
-            src="/projects/ap/previous-utep-academic-programs3.png"
-            alt="Previous UTEP Academic Programs Page"
-            width={800}
-            height={400}
-            className="rounded-lg mt-6"
-          />
-</div>
+                    <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">The Problem</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The existing academic catalog was packed with technical information that worked fine for current students planning their schedules, but it didn't help prospective students understand:</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed mt-10">From the main audience perspective:</p>
+                    <ul className="list-disc pl-5">
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What each program was actually about</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What career opportunities they could pursue</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Learn success stories from graduates</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">How programs matched their interests and goals</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The design was also outdated and not engaging - no personalized content, compelling images, or videos that would excite potential students about their future.</li>
+                    </ul>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed mt-10">From the main audience perspective:</p>
+                    <ul className="list-disc pl-5">
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not connecting with our primary audience</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not integrating interested prospective students to a pre-enrollment process to inform and guide them</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not capturing data to get to know our primary audience</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We didn't have a baseline of enrollment data that we could latter on optimize</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Content managers found it difficult to update program information, leading to outdated content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+        <blockquote class="relative p-8 mt-20">
+            <svg class="absolute top-4 left-4 w-8 h-8 text-neutral-500 opacity-25" fill="currentColor" viewBox="0 0 32 32">
+                <path d="M10 8c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8zm12 0c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8z"/>
+            </svg>
+            <p class="text-lg leading-relaxed pl-12 italic">
+                "This is a very detailed map, but I don't know the destination."
+            </p>
+            <cite class="text-sm mt-6 pl-12 block not-italic">— Ana, Prospective Student</cite>
+        </blockquote>
+        </div>
+        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+            <ExpandableContent title="Previous Course Catalog" maxHeight={600} className="mt-20 mb-12 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 rounded-xl p-6 transition-all duration-300">
+                <div className="grid grid-cols-3 md:grid-cols-3 gap-6 mt-6">
+                    <Image
+                        src="/projects/ap/previous-utep-academic-programs1.png"
+                        alt="Previous UTEP Academic Programs Page"
+                        width={800}
+                        height={400}
+                        className="rounded-lg mt-6"
+                    />
+                    <Image
+                        src="/projects/ap/previous-utep-academic-programs2.png"
+                        alt="Previous UTEP Academic Programs Page"
+                        width={800}
+                        height={400}
+                        className="rounded-lg mt-6"
+                    />
+                    <Image
+                        src="/projects/ap/previous-utep-academic-programs3.png"
+                        alt="Previous UTEP Academic Programs Page"
+                        width={800}
+                        height={400}
+                        className="rounded-lg mt-6"
+                    />
+                </div>
+            </ExpandableContent>
+        </div>
+      </section>
+
+      <section className="w-full py-10">
+        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+            <div className="grid grid-cols-[80px_1fr] gap-4">
+                <div className="">
+                    <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
+                    <h2 className="text-sm font-bold leading-4">WHO?</h2>
+                    </div>
+                </div>
+                <div className="">
+                    <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">Research & Interviews</h3>
                 </div>
             </div>
         </div>
       </section>
-
-
-
 
         
 
@@ -195,9 +252,6 @@ export default function UTEPAcademicPrograms() {
 
 
 
-<div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-  <h2 className="text-sm font-bold leading-4">WHO?</h2>
-</div>
 
 
 <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl font-sans">Target Audience</h3>
