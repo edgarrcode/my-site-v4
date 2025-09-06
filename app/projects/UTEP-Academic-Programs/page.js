@@ -4,25 +4,26 @@ import ExpandableImage from "../../components/ExpandableImage";
 import ExpandableGallery from "../../components/ExpandableGallery";
 import ExpandableContent from "../../components/ExpandableContent";
 import BrowserWindow from "@/app/components/BrowserWindow";
+import TemplateFeatures from "@/app/components/TemplateFeatures";
 
 export default function UTEPAcademicPrograms() {
   return (
 <div className="">
     <section className="w-full pt-30 pb-10">
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
           <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-5xl lg:text-6xl xl:text-7xl">UTEP Academic Programs: Transforming University Program Discovery</h1>
           <p className="text-lg">
-            Built UTEP's academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.
+            Built UTEP&apos;s academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.
           </p>
         </div>
-        <div className="mx-auto w-full max-w-lvw py-20 px-6">
+        <div className="mx-auto w-full max-w-lvw py-10 px-6">
             <div className="grid grid-cols-12 grid-rows-8 gap-4 h-[800px]">
                         
-                <div className="col-span-6 row-span-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-6 flex flex-col justify-center items-center text-white shadow-lg hover:scale-[1.02] transition-transform duration-300">
+                <div className="col-span-6 row-span-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-6 flex flex-col justify-center items-center text-white shadow-lg transition-transform duration-300">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold mb-3">Featured Project</h2>
                         <p className="text-lg opacity-90">Discover our latest creative endeavor</p>
-                        <button className="mt-4 bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                        <button className="mt-4 bg-white text-purple-600 px-6 py-2 rounded-full font-semibold transition-colors">
                             Explore
                         </button>
                     </div>
@@ -127,32 +128,34 @@ export default function UTEPAcademicPrograms() {
     </section>
 
     <section className="w-full py-10">
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
-            <div className="grid grid-cols-[80px_1fr] gap-4">
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+            <div className="grid lg:grid-cols-[80px_1fr] gap-4">
                 <div className="">
-                    <div className="lg:sticky lg:top-8 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-                        <h2 className="text-sm font-bold leading-4">WHAT?</h2>
+                    <div className="lg:sticky lg:top-8 text-blue-500/50">
+                        <div className="text-6xl font-bold mb-2">01</div>
+                        <h2 className="mb-5">What?</h2>
                     </div>
                 </div>
                 <div className="">
                     <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">New UTEP Academic Programs Platform</h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I built a new digital platform to showcase UTEP's academic programs and connect with prospective students.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I built a new digital platform to showcase UTEP&apos;s academic programs and connect with prospective students.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section className="w-full py-10">
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
-            <div className="grid grid-cols-[80px_1fr] gap-4">
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+            <div className="grid lg:grid-cols-[80px_1fr] gap-4">
                 <div className="">
-                    <div className="lg:sticky lg:top-8 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-                        <h2 className="text-sm font-bold leading-4">WHY?</h2>
+                    <div className="lg:sticky lg:top-8 text-blue-500/50">
+                        <div className="text-6xl font-bold mb-2">02</div>
+                        <h2 className="mb-5">Why?</h2>
                     </div>
                 </div>
                 <div className="">
                     <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">The Problem</h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">There was no tool specifically designed to inform and guide our primary audience, prospective students. The closest tool, the academic catalog, was packed with technical information. While it worked fine for current students planning their schedules, it didn't help prospective students understand:</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">There was no tool specifically designed to inform and guide our primary audience, prospective students. The closest tool, the academic catalog, was packed with technical information. While it worked fine for current students planning their schedules, it didn&apos;t help prospective students understand:</p>
                     <ul className="list-disc pl-5 mt-5">
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What each program was actually about</li>
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What career opportunities they could pursue</li>
@@ -165,7 +168,7 @@ export default function UTEPAcademicPrograms() {
                             <path d="M10 8c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8zm12 0c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8z"/>
                         </svg>
                         <p className="text-lg leading-relaxed pl-12 italic">
-                            "This is a very detailed map, but I don't know the destination."
+                            “This is a very detailed map, but I don&apos;t know the destination.”
                         </p>
                         <cite className="text-sm mt-6 pl-12 block not-italic">— Ana, Prospective Student</cite>
                     </blockquote>
@@ -176,7 +179,7 @@ export default function UTEPAcademicPrograms() {
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not connecting with our primary audience</li>
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not integrating interested prospective students to a pre-enrollment process to inform and guide them</li>
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We were not capturing data to get to know our primary audience</li>
-                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We didn't have a baseline of enrollment data that we could latter on optimize</li>
+                        <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">We didn&apos;t have a baseline of enrollment data that we could latter on optimize</li>
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Content managers found it difficult to update web content, leading to outdated content</li>
                     </ul>
                 </div>
@@ -185,11 +188,12 @@ export default function UTEPAcademicPrograms() {
     </section>
 
     <section className="w-full py-10">
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
-            <div className="grid grid-cols-[80px_1fr] gap-4">
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+            <div className="grid lg:grid-cols-[80px_1fr] gap-4">
                 <div className="">
-                    <div className="lg:sticky lg:top-8 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-                    <h2 className="text-sm font-bold leading-4">WHO?</h2>
+                    <div className="lg:sticky lg:top-8 text-blue-500/50">
+                        <div className="text-6xl font-bold mb-2">03</div>
+                        <h2 className="mb-5">Who?</h2>
                     </div>
                 </div>
                 <div className="">
@@ -241,11 +245,12 @@ export default function UTEPAcademicPrograms() {
 
 
     <section className="w-full py-10">
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
-            <div className="grid grid-cols-[80px_1fr] gap-4">
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+            <div className="grid lg:grid-cols-[80px_1fr] gap-4">
                 <div className="">
-                    <div className="lg:sticky lg:top-8 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-                    <h2 className="text-sm font-bold leading-4">HOW?</h2>
+                    <div className="lg:sticky lg:top-8 text-blue-500/50">
+                        <div className="text-6xl font-bold mb-2">04</div>
+                        <h2 className="mb-5">How?</h2>
                     </div>
                 </div>
                 <div className="">
@@ -288,7 +293,7 @@ export default function UTEPAcademicPrograms() {
                             <path d="M10 8c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8zm12 0c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8z"/>
                         </svg>
                         <p className="text-lg leading-relaxed pl-12 italic">
-                            "Not inspiring for a life-changing decision."
+                            “Not inspiring for a life-changing decision.”
                         </p>
                         <cite className="text-sm mt-6 pl-12 block not-italic">— Ruben, Prospective Student</cite>
                     </blockquote>
@@ -300,7 +305,7 @@ export default function UTEPAcademicPrograms() {
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Conducted competitive analysis using examples from other universities provided by leadership</li>
                     </ul>
 
-                    <div className="col-span-1 md:col-span-2 rounded-xl p-6 py-8 my-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
                         <h2 className="text-xl font-semibold">Key Discovery</h2>
                         <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">Prospective students need more than just a course catalog. They require inspirational, outcome-focused content to make informed decisions about their academic future. Our in-depth user interviews revealed that prospective students want to understand:</p>
                         <ul className="list-disc pl-5 mt-5">
@@ -315,56 +320,66 @@ export default function UTEPAcademicPrograms() {
                     <h3 className="text-xl font-semibold mt-10">The Design</h3>
 
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Sitemap</h4>
-                    <Image
-                        src="/projects/ap/sitemap.png"
-                        alt="UTEP Academic Programs Page"
-                        width={800}
-                        height={400}
-                        className="rounded-lg mt-10"
-                    />
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                        <Image
+                            src="/projects/ap/sitemap.png"
+                            alt="UTEP Academic Programs Page"
+                            width={800}
+                            height={400}
+                            className="rounded-lg"
+                        />
+                    </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">The solution centered on creating three distinct program pathways (Undergraduate, Graduate, Online) with personalized content architecture and streamlined content management workflows.</p>
                     
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Wireframes V1</h4>
-                    <Image
-                        src="/projects/ap/wireframes1.gif"
-                        alt="Wireframes V1"
-                        width={800}
-                        height={400}
-                        className="rounded-lg mt-5"
-                    />
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                        <Image
+                            src="/projects/ap/wireframes1.gif"
+                            alt="Wireframes V1"
+                            width={800}
+                            height={400}
+                            className="rounded-lg mt-5"
+                        />
+                    </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">✅ Our initial wireframes (V1) incorporated the content that prospective students, our primary audience, were looking for. The user journey was a simple, consisting of an index page with modal overlays for specific programs.</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">❌ However, while this design was simple to build, it lacked the emotional connection needed to engage users. The wireframes were too text-heavy and didn't offer the personalized content that prospective students need to connect with the university.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">❌ However, while this design was simple to build, it lacked the emotional connection needed to engage users. The wireframes were too text-heavy and didn&apos;t offer the personalized content that prospective students need to connect with the university.</p>
 
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Wireframes V2</h4>
-                    <Image
-                        src="/projects/ap/wireframes2.gif"
-                        alt="Wireframes V2"
-                        width={800}
-                        height={400}
-                        className="rounded-lg mt-5"
-                    />
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                        <Image
+                            src="/projects/ap/wireframes2.gif"
+                            alt="Wireframes V2"
+                            width={800}
+                            height={400}
+                            className="rounded-lg mt-5"
+                        />
+                    </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">✅ Based on our research, Wireframes V2 was more aligned with what prospective students wanted. We enriched the pages with photography, video, highlights, testimonials, and key facts about each program.</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">❌ However, the design had a significant flaw. The first section of the page included multiple links to external resources like the academic department, catalog, and application pages. These links had the same visual hierarchy as our primary business objective for the page: the "Request Information" form. This created a lack of focus and potentially drew users away from our main call to action.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">❌ However, the design had a significant flaw. The first section of the page included multiple links to external resources like the academic department, catalog, and application pages. These links had the same visual hierarchy as our primary business objective for the page: the “Request Information” form. This created a lack of focus and potentially drew users away from our main call to action.</p>
 
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Wireframes V3</h4>
-                    <Image
-                        src="/projects/ap/wireframes3.gif"
-                        alt="Wireframes V3"
-                        width={800}
-                        height={400}
-                        className="rounded-lg mt-10"
-                    />
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                        <Image
+                            src="/projects/ap/wireframes3.gif"
+                            alt="Wireframes V3"
+                            width={800}
+                            height={400}
+                            className="rounded-lg"
+                        />
+                    </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">✅ This version of the wireframes was meticulously refined, with every element serving a specific purpose. We removed unnecessary and distracting links, ensuring the design stayed focused on the needs of our primary audience and our core business objective.</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">✅ Using an adaptive design approach, we avoided creating overly long pages, a crucial decision since our CRM form was strategically placed at the bottom. A/B testing confirmed that this placement significantly improved conversion rates.</p>
 
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Index Page Prototype</h4>
-                    <Image
-                        src="/projects/ap/prototype.png"
-                        alt="Wireframes V3"
-                        width={800}
-                        height={400}
-                        className="rounded-lg mt-10"
-                    />
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                        <Image
+                            src="/projects/ap/prototype.png"
+                            alt="Wireframes V3"
+                            width={800}
+                            height={400}
+                            className="rounded-lg"
+                        />
+                    </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">Sidebar vs Top bar: We built a prototype to test the placement of filters and found that a sidebar is more usable for desktop users, while a top bar works better for mobile. On mobile, the filters are kept out of sight within a dropdown menu, making them visible only when a user needs them.</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">Filters State Persistence: Usability tests revealed that users expect their selected filters to persist when they navigate away from a program page and then return. This feature prevents users from having to re-select their preferences, creating a smoother user experience.</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">Autogenerated Content: To streamline content creation and simplify future maintenance, our index pages will be autogenerated. By pulling content directly from the program pages, we eliminate the need for manual updates and ensure information stays consistent across the site.</p>
@@ -443,10 +458,12 @@ export default function UTEPAcademicPrograms() {
                     </div>
                     <div>
                         <div className="mt-10">
-                            <BrowserWindow url="utep.edu/academic-programs/undergraduate">
-                            <img 
+                            <BrowserWindow>
+                            <Image 
                                 src="/projects/ap/screenshotIndexDesktop.png" 
                                 alt="Website screenshot" 
+                                width={800}
+                                height={400}
                                 className="w-full h-auto block"
                             />
                             </BrowserWindow>
@@ -456,10 +473,12 @@ export default function UTEPAcademicPrograms() {
                     </div>
                     <div>
                         <div className="mt-10">
-                            <BrowserWindow url="utep.edu/academic-programs/undergraduate/digital-media">
-                            <img 
+                            <BrowserWindow>
+                            <Image 
                                 src="/projects/ap/screenshotProgram.png" 
                                 alt="Website screenshot" 
+                                width={800}
+                                height={400}
                                 className="w-full h-auto block"
                             />
                             </BrowserWindow>
@@ -468,7 +487,7 @@ export default function UTEPAcademicPrograms() {
                             Program Page - Desktop</p>
                     </div>
                     <div>
-                        <div className="mt-10">
+                        <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
                             <Image
                                 src="/projects/ap/mobileComponents.png"
                                 alt="Wireframes V3"
@@ -478,24 +497,98 @@ export default function UTEPAcademicPrograms() {
                             />
                         </div>
                         <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-3">
-                            Visual Design<br/>
-                            Index Page and components<br/>
+                            Components for Mobile
                         </p>
                     </div>
 
                     <h3 className="text-xl font-semibold mt-10">The Development</h3>
+
+
                 </div>
             </div>
-        </div>
+        </div>{/* end of narrow container */}
+        <div className="mx-auto w-full max-w-lvw py-10 px-6">
+            <div className="flex overflow-x-auto lg:grid lg:grid-cols-3 gap-6 pb-4 hide-scrollbar">
+                <div className="flex-shrink-0 w-80 lg:w-auto rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                    <Image
+                        src="/projects/ap/dev-data-definition-section-profile.png"
+                        alt="Wireframes V3"
+                        width={800}
+                        height={400}
+                        className=""
+                    />
+                    <h3 className="text-xl mt-5">1. CMS Admin UI</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">
+                        Built a CMS admin UI to capture the content needed for each program. This content will automatically generate the index and program pages.
+                    </p>
+                </div>
+
+                
+                <div className="flex-shrink-0 w-80 lg:w-auto rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                    <Image
+                        src="/projects/ap/dev-formatting.png"
+                        alt="Wireframes V3"
+                        width={800}
+                        height={400}
+                        className=""
+                    />
+                    <h3 className="text-xl mt-5">2. Content Formatting</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">
+                        The Apache Velocity language was used to format content inputted by content managers into structured HTML sections.
+                    </p>
+                </div>
+
+                
+                <div className="flex-shrink-0 w-80 lg:w-auto rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                    <Image
+                        src="/projects/ap/dev-output.png"
+                        alt="Wireframes V3"
+                        width={800}
+                        height={400}
+                        className=""
+                    />
+                    <h3 className="text-xl mt-5">3. HTML Output</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-5">
+                        The output is clean, tested, semantic HTML that is optimized for performance and accessibility
+                    </p>
+                </div>
+            </div>
+        </div>{/* end of large container */}
+        <div className="mx-auto w-full max-w-lvw py-10 px-6">
+<div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+            <div className="grid lg:grid-cols-[80px_1fr] gap-4">
+                <div className="">
+                    <div className="lg:sticky lg:top-8 text-blue-500/50">
+                        <div className="text-6xl font-bold mb-2">05</div>
+                        <h2 className="mb-5">Results</h2>
+                    </div>
+                </div>
+                <div className="">
+                    <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">The Results</h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">The new Academic Programs section launched alongside a redesigned homepage and delivered impressive results:</p>
+                </div>
+            </div>
+        </div>{/* end of narrow container */}
+            
+            <TemplateFeatures />
+            
+        </div>{/* end of narrow container */}
     </section>
 
+    <section className="w-full py-10">
+        <div className="mx-auto w-full max-w-lvw py-20 lg:px-6 pl-6">
+    
 
 
-
-
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
         </div>
-        <div className="max-w-4xl mx-auto px-6 space-y-6 relative">
+</section>
+
+
+
+
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
+        </div>
+        <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
 
         </div>
                     <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Research & UX Design</p>
@@ -532,7 +625,7 @@ export default function UTEPAcademicPrograms() {
 
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">RESULTS</p>
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What We Achieved</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The new Academic Programs section launched alongside a redesigned homepage and delivered impressive results:</p>
+
 
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">4% conversion rate - exceeding our initial goals</p>
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Increased website traffic from prospective students</p>
@@ -541,28 +634,7 @@ export default function UTEPAcademicPrograms() {
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Improved tracking through integrated analytics and CRM forms</p>
 
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The project successfully transformed how UTEP presents its academic programs, making it easier for prospective students to find their path and for the university to showcase what makes their programs special.</p>
-<div className="bg-neutral-800 border border-neutral-700 rounded-2xl shadow-2xl overflow-hidden">
-    <div className="grid grid-cols-1 lg:grid-cols-2 min-h-96">
-        <div className="p-12 flex flex-col justify-center">
-            <span className="text-blue-400 font-semibold mb-4">Hello, I'm</span>
-            <h1 className="text-4xl font-bold mb-6 text-white">Sarah Designer</h1>
-            <p className="text-neutral-300 mb-8 leading-relaxed">
-                Creative designer specializing in user experience and visual storytelling. 
-                I transform ideas into beautiful, intuitive digital experiences.
-            </p>
-            <div className="flex space-x-4">
-                <span className="bg-blue-900/50 text-blue-300 px-4 py-2 rounded-full text-sm border border-blue-800">UI/UX Design</span>
-                <span className="bg-green-900/50 text-green-300 px-4 py-2 rounded-full text-sm border border-green-800">Branding</span>
-                <span className="bg-purple-900/50 text-purple-300 px-4 py-2 rounded-full text-sm border border-purple-800">Web Design</span>
-            </div>
-        </div>
-        <div className="bg-gradient-to-br from-blue-900/30 to-purple-900/30 flex items-center justify-center p-12">
-            <div className="w-64 h-64 bg-neutral-700 rounded-2xl shadow-2xl flex items-center justify-center border border-neutral-600">
 
-            </div>
-        </div>
-    </div>
-</div>
 
 </div>
   );

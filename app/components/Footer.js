@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
     return (
@@ -14,6 +15,10 @@ export default function Footer() {
                     {" | "}
                     <Link href="https://www.instagram.com/edgarr_com/" className="text-blue-400 hover:underline">Instagram</Link>
                 </p>
+            </div>
+            <div className="container mx-auto text-center mt-4">
+                <p className="text-xs text-gray-500">Built with Next.js and Tailwind CSS.</p>
+
             </div>
         </footer>
     );
