@@ -139,24 +139,24 @@ const TemplateFeatures = () => {
   const getColorClasses = (color) => {
     const colorMap = {
       indigo: {
-        iconBg: 'bg-indigo-100 dark:bg-indigo-950',
-        iconText: 'text-indigo-600',
-        metric: 'text-indigo-600',
-        progress: 'bg-indigo-500',
-        badge: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-950 dark:text-indigo-200',
-        dot: 'bg-indigo-500',
-        blocks: ['bg-indigo-300 dark:bg-indigo-100', 'bg-indigo-500 dark:bg-indigo-400', 'bg-indigo-300 dark:bg-indigo-100'],
-        shapes: ['bg-indigo-300 rounded-full', 'bg-indigo-400 rounded', 'bg-indigo-500 rounded-sm', 'bg-indigo-600']
+        iconBg: 'bg-blue-100 dark:bg-blue-950',
+        iconText: 'text-blue-600',
+        metric: 'text-blue-600',
+        progress: 'bg-blue-500',
+        badge: 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-200',
+        dot: 'bg-blue-500',
+        blocks: ['bg-blue-300 dark:bg-blue-100', 'bg-blue-500 dark:bg-blue-400', 'bg-blue-300 dark:bg-blue-100'],
+        shapes: ['bg-blue-300 rounded-full', 'bg-blue-400 rounded', 'bg-blue-500 rounded-sm', 'bg-blue-600']
       },
       pink: {
-        iconBg: 'bg-pink-100 dark:bg-pink-950',
-        iconText: 'text-pink-600',
-        metric: 'text-pink-600',
-        progress: 'bg-pink-500',
-        badge: 'bg-pink-100 text-pink-800 dark:bg-pink-950 dark:text-pink-200',
-        dot: 'bg-pink-500',
-        blocks: ['bg-pink-300 dark:bg-pink-100', 'bg-pink-500 dark:bg-pink-400', 'bg-pink-300 dark:bg-pink-100'],
-        shapes: ['bg-pink-300 rounded-full', 'bg-pink-400 rounded', 'bg-pink-500 rounded-sm', 'bg-pink-600']
+        iconBg: 'bg-orange-100 dark:bg-orange-950',
+        iconText: 'text-orange-600',
+        metric: 'text-orange-600',
+        progress: 'bg-orange-500',
+        badge: 'bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-200',
+        dot: 'bg-orange-500',
+        blocks: ['bg-orange-300 dark:bg-orange-800', 'bg-orange-500 dark:bg-orange-500', 'bg-orange-300 dark:bg-orange-800'],
+        shapes: ['bg-orange-300 rounded-full', 'bg-orange-400 rounded', 'bg-orange-500 rounded-sm', 'bg-orange-600']
       }
     };
     return colorMap[color];

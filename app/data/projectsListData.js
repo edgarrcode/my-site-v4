@@ -1,13 +1,13 @@
 export  const projects = [
+    { id: "UTEP-Academic-Programs",
+    title: "UTEP Academic Programs: Transforming University Program Discovery",
+    description: "Built UTEP's academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.",
+    image: "projects/project2.png"
+  },
   { id: 'UTEP-Homepage-Redesign',
     title: "90% Above the Fold: How Data-Driven Redesign Transformed UTEP's Homepage",
     description: "When UTEP's homepage analytics revealed that 90% of users never scrolled below the fold, we stripped away non-essential content and put academic program navigation front and center. The streamlined experience launched in one month, dramatically improving user engagement and successfully directing visitors to the programs they were seeking.",
     image: "projects/project1.jpg"
-  },
-  { id: "UTEP-Academic-Programs",
-    title: "UTEP Academic Programs: Transforming University Program Discovery",
-    description: "Built UTEP's academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.",
-    image: "projects/project2.png"
   },
   { id: "Enterprise-CMS-Implementation",
     title: "Enterprise CMS Implementation & Migration",

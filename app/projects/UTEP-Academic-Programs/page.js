@@ -5,6 +5,7 @@ import ExpandableGallery from "../../components/ExpandableGallery";
 import ExpandableContent from "../../components/ExpandableContent";
 import BrowserWindow from "@/app/components/BrowserWindow";
 import TemplateFeatures from "@/app/components/TemplateFeatures";
+import FeatureCards from "@/app/components/FeatureCards";
 
 export default function UTEPAcademicPrograms() {
   return (
@@ -12,118 +13,9 @@ export default function UTEPAcademicPrograms() {
     <section className="w-full pt-30 pb-10">
         <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
           <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-5xl lg:text-6xl xl:text-7xl">UTEP Academic Programs: Transforming University Program Discovery</h1>
-          <p className="text-lg">
-            Built UTEP&apos;s academic program discovery experience to help prospective students make informed career decisions. Through user research and no-code development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows.
-          </p>
         </div>
         <div className="mx-auto w-full max-w-lvw py-10 px-6">
-            <div className="grid grid-cols-12 grid-rows-8 gap-4 h-[800px]">
-                        
-                <div className="col-span-6 row-span-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-6 flex flex-col justify-center items-center text-white shadow-lg transition-transform duration-300">
-                    <div className="text-center">
-                        <h2 className="text-3xl font-bold mb-3">Featured Project</h2>
-                        <p className="text-lg opacity-90">Discover our latest creative endeavor</p>
-                        <button className="mt-4 bg-white text-purple-600 px-6 py-2 rounded-full font-semibold transition-colors">
-                            Explore
-                        </button>
-                    </div>
-                </div>
-                
-                <div className="col-span-3 row-span-2 rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
-                    <div className="flex items-center justify-between mb-2">
-                        <div className="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center">
-                            <div className="w-4 h-4 bg-green-500 rounded"></div>
-                        </div>
-                        <span className="text-sm text-gray-500">incease icon</span>
-                    </div>
-                    <h3 className="text-2xl font-bold">+4%</h3>
-                    <p className="text-gray-500 text-sm">Conversions Rate</p>
-                </div>
-                
-                <div className="col-span-3 row-span-2 bg-white rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
-                    <div className="flex items-center justify-between mb-2">
-                        <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
-                            <div className="w-4 h-4 bg-blue-500 rounded"></div>
-                        </div>
-                        <span className="text-sm text-gray-500">0-1</span>
-                    </div>
-                    <h3 className="text-2xl font-bold">20+</h3>
-                    <p className="text-gray-500 text-sm">Content Managers Trained</p>
-                </div>
-                
-                <div className="col-span-3 row-span-3 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl p-4 text-white shadow-lg">
-                    <h3 className="text-lg font-semibold mb-3">Gallery</h3>
-                    <div className="grid grid-cols-2 gap-2 h-32">
-                        <div className="bg-white/20 rounded-lg"></div>
-                        <div className="bg-white/20 rounded-lg"></div>
-                        <div className="bg-white/20 rounded-lg"></div>
-                        <div className="bg-white/20 rounded-lg"></div>
-                    </div>
-                    <p className="text-sm opacity-90 mt-3">Latest creative works</p>
-                </div>
-                
-                <div className="col-span-3 row-span-3 bg-white rounded-xl p-4 shadow-md border border-gray-100 relative">
-                    <div className="flex flex-col items-center text-center h-full justify-center">
-                        <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mb-3 flex items-center justify-center text-white text-xl font-bold">
-                            JD
-                        </div>
-                        <h3 className="font-semibold text-gray-800">John Doe</h3>
-                        <p className="text-gray-600 text-sm mb-3">Creative Director</p>
-                        <button className="bg-gray-100 text-gray-700 px-4 py-1 rounded-full text-sm hover:bg-gray-200 transition-colors">
-                            Connect
-                        </button>
-                    </div>
-                </div>
-                
-                <div className="col-span-6 row-span-4 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-xl p-4 text-white shadow-lg">
-                    <div className="flex items-center justify-between mb-2">
-                        <h3 className="text-lg font-semibold">Analytics Overview</h3>
-                        <button className="text-white/80 hover:text-white">
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <div className="flex items-center space-x-6">
-                        <div className="flex-1">
-                            <div className="h-2 bg-white/20 rounded-full mb-1">
-                                <div className="h-2 bg-white/60 rounded-full w-3/4"></div>
-                            </div>
-                            <p className="text-sm opacity-90">Performance: 74%</p>
-                        </div>
-                        <div className="text-right">
-                            <p className="text-2xl font-bold">94.2%</p>
-                            <p className="text-sm opacity-90">Uptime</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="col-span-2 row-span-3 rounded-xl p-3 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 relative">
-                    <Image
-                        src="/projects/ap/banner-m-1.jpg"
-                        alt="UTEP Academic Programs Website Mockup"
-                        fill
-                        className="object-cover object-top rounded-xl"
-                    />
-                </div>
-                
-                <div className="col-span-2 row-span-3 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl p-3 text-white shadow-lg">
-                    <div className="text-center h-full flex flex-col justify-center">
-                        <div className="text-2xl mb-1">☀️</div>
-                        <p className="text-xl font-bold">24°C</p>
-                        <p className="text-sm opacity-90">Sunny</p>
-                    </div>
-                </div>
-
-                <div className="col-span-2 row-span-3 rounded-xl p-3 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 relative">
-                    <Image
-                        src="/projects/ap/banner-m.jpg"
-                        alt="UTEP Academic Programs Website Mockup"
-                        fill
-                        className="object-cover object-top rounded-xl"
-                    />
-                </div>
-            </div>
+            <FeatureCards />
         </div>
     </section>
 
@@ -138,7 +30,9 @@ export default function UTEPAcademicPrograms() {
                 </div>
                 <div className="">
                     <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">New UTEP Academic Programs Platform</h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">I built a new digital platform to showcase UTEP&apos;s academic programs and connect with prospective students.</p>
+                    <p className="text-lg">
+                        Built UTEP&apos;s academic program discovery experience to help prospective students make informed career decisions. Through user research, design, and web development, created flexible templates that achieved a 4% conversion rate while empowering content managers with no-code publishing workflows. And connecting prospective students to enrollment services throug our CRM.
+                    </p>
                 </div>
             </div>
         </div>
@@ -320,7 +214,7 @@ export default function UTEPAcademicPrograms() {
                     <h3 className="text-xl font-semibold mt-10">The Design</h3>
 
                     <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Sitemap</h4>
-                    <div className="rounded-xl p-6 py-8 mt-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
+                    <div className="rounded-xl p-6 py-8 mt-10 bg-neutral-900 dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
                         <Image
                             src="/projects/ap/sitemap.png"
                             alt="UTEP Academic Programs Page"
@@ -502,8 +396,10 @@ export default function UTEPAcademicPrograms() {
                     </div>
 
                     <h3 className="text-xl font-semibold mt-10">The Development</h3>
-
-
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-3">
+                        I built a CMS content type, which is an object containing a admin form for data entry and a corresponding database. The CMS then shares this content via an XML file, which is used to capture content in variables. These variables are inserted into an HTML template. When ready, content managers publish a static version of the pages to test or production.
+                    </p>
+                    <h4  className="text-lg font-semibold text-gray-500 dark:text-gray-400 leading-relaxed mt-10">Example of a profile card:</h4>
                 </div>
             </div>
         </div>{/* end of narrow container */}
@@ -522,7 +418,6 @@ export default function UTEPAcademicPrograms() {
                         Built a CMS admin UI to capture the content needed for each program. This content will automatically generate the index and program pages.
                     </p>
                 </div>
-
                 
                 <div className="flex-shrink-0 w-80 lg:w-auto rounded-xl p-4 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
                     <Image
@@ -591,51 +486,6 @@ export default function UTEPAcademicPrograms() {
         <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
 
         </div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Research & UX Design</p>
-
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Created user flow charts and wireframes to map out the experience</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Built interactive prototypes for testing</p>
-
-
-<div className="lg:sticky lg:top-8 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold border-4 border-gray-800">
-  <h2 className="text-sm font-bold leading-4">HOW?</h2>
-</div>
-<h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">Research & Interviews</h3>
-<h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">My Process & Contributions</h3>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Research & UX Design</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Conducted user interviews to understand what prospective students actually needed</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Created user flow charts and wireframes to map out the experience</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Built interactive prototypes for testing</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Visual Design & Project Management</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Collaborated with designers to bring wireframes to life</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Coordinated with photographers, videographers, and copywriters to create compelling content</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Created simple spec sheets to help media producers understand web requirements</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Managed multiple project streams and timelines</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Development</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Used no-code tools (Webflow) for faster implementation</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Built flexible templates so content managers could easily update programs without technical help</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Designed an intuitive admin interface</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Made sure the site was accessible (proper headings, color contrast, keyboard navigation)</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Optimized for search engines and social media sharing</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">RESULTS</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">What We Achieved</p>
-
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">4% conversion rate - exceeding our initial goals</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Increased website traffic from prospective students</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Streamlined content management - staff can now update programs quickly without waiting for the web team</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Better user experience with distinct sections for Undergraduate, Graduate, and Online Programs</p>
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">Improved tracking through integrated analytics and CRM forms</p>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed">The project successfully transformed how UTEP presents its academic programs, making it easier for prospective students to find their path and for the university to showcase what makes their programs special.</p>
-
-
 </div>
   );
 }

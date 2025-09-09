@@ -6,7 +6,7 @@ export default function Header() {
         <div className="">
             <div className="flex justify-between items-center">
                 <div className="">
-                    <Link href="./" className="hover:text-gray-400 transition-colors duration-100">
+                    <Link href="/" className="hover:text-gray-400 transition-colors duration-100">
                         <span className="">edgarr.com</span>
                     </Link>
                 </div>
