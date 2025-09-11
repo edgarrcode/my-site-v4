@@ -10,7 +10,7 @@ export default function Header() {
                         <span className="">edgarr.com</span>
                     </Link>
                 </div>
-                <div className="hidden md:flex space-x-8">
+                <div className="md:flex space-x-8">
                     <Link href="/" className="hover:text-gray-400 transition-colors duration-100">
                         Home
                     </Link>

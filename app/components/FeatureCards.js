@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const FeatureCards = () => {
   return (
-    <div className="p-4">
+    <div className="py-4">
       <div className="container mx-auto">
         
         {/* Container with horizontal scroll for lg and below */}

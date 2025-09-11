@@ -14,7 +14,7 @@ export default function UTEPAcademicPrograms() {
         <div className="max-w-5xl mx-auto px-6 space-y-6 relative">
           <h1 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-5xl lg:text-6xl xl:text-7xl">UTEP Academic Programs: Transforming University Program Discovery</h1>
         </div>
-        <div className="mx-auto w-full max-w-lvw py-10 px-6">
+        <div className="mx-auto w-full max-w-lvw py-10 px-0">
             <FeatureCards />
         </div>
     </section>
@@ -157,31 +157,7 @@ export default function UTEPAcademicPrograms() {
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed"><b>Scattered Information:</b> Students relied on Google, leading them to a scattered collection of data rather than a unified source.</li>
                         <li className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed"><b>Incomplete Tools:</b> The course catalog, while descriptive of individual courses, was the closest available resource. However, it lacked crucial information such as career opportunities, success stories, and the ability to connect with the university.</li>
                     </ul>
-                    <ExpandableContent title="Existing Course Catalog" maxHeight={600} className="my-10 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 rounded-xl p-6 transition-all duration-300">
-                        <div className="grid grid-cols-3 md:grid-cols-3 gap-6">
-                            <Image
-                                src="/projects/ap/previous-utep-academic-programs1.png"
-                                alt="UTEP Academic Programs Page"
-                                width={800}
-                                height={400}
-                                className="rounded-lg mt-6"
-                            />
-                            <Image
-                                src="/projects/ap/previous-utep-academic-programs2.png"
-                                alt="UTEP Academic Programs Page"
-                                width={800}
-                                height={400}
-                                className="rounded-lg mt-6"
-                            />
-                            <Image
-                                src="/projects/ap/previous-utep-academic-programs3.png"
-                                alt="UTEP Academic Programs Page"
-                                width={800}
-                                height={400}
-                                className="rounded-lg mt-6"
-                            />
-                        </div>
-                    </ExpandableContent>
+                    
                     <blockquote className="relative p-8 my-10">
                         <svg className="absolute top-4 left-4 w-8 h-8 text-neutral-500 opacity-25" fill="currentColor" viewBox="0 0 32 32">
                             <path d="M10 8c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8zm12 0c-3.3 0-6 2.7-6 6v10h8V14h-4c0-1.1.9-2 2-2V8z"/>
@@ -315,7 +291,7 @@ export default function UTEPAcademicPrograms() {
                         </div>
                         <div>
                             <div className="rounded-xl p-6 py-8 bg-[#1a1b1f] border-gray-200 dark:border-neutral-800 mt-10"></div>
-                            <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-3">Primary Color<br/>
+                            <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mt-3">Neutral Color<br/>
                             #1a1b1f
                             </p>
                         </div>
@@ -460,7 +436,7 @@ export default function UTEPAcademicPrograms() {
                 </div>
                 <div className="">
                     <h3 className="text-4xl tracking-tighter text-balance max-lg:font-medium sm:text-4xl lg:text-5xl xl:text-6xl mb-6 font-sans">The Results</h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">The new Academic Programs section launched alongside a redesigned homepage and delivered impressive results:</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-10">The new Academic Programs section launched alongside a redesigned homepage and delivered impressive results:</p>
                 </div>
             </div>
         </div>{/* end of narrow container */}
