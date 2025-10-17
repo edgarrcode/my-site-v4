@@ -12,7 +12,7 @@ export default function ProjectsList() {
                                     <div className="grid lg:grid-cols-1 gap-6">
 <div className="pt-6">
     <h3 className="">Selected Projects</h3>
-</div>                                        
+</div>
                                         <div className="lg:col-span-3">
 <div className="bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800 rounded-xl  transition-all duration-300overflow-hidden">
     <div className="overflow-x-auto rounded-xl">

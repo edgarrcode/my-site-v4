@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function ProjectGrid({ projects }) {
     return (
-        <section className="px-6 pt-20">
+        <section className="px-6">
             <div className="py-4">
                 <h3 className="font-mono">Case Studies</h3>
             </div>

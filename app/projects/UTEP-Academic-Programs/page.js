@@ -6,6 +6,9 @@ import ExpandableContent from "../../components/ExpandableContent";
 import BrowserWindow from "@/app/components/BrowserWindow";
 import TemplateFeatures from "@/app/components/TemplateFeatures";
 import FeatureCards from "@/app/components/FeatureCards";
+import ProjectGrid from "@/app/components/ProjectGrid";
+import { projects } from '@/app/data/projectsListData.js';
+
 
 export default function UTEPAcademicPrograms() {
   return (
@@ -396,15 +399,15 @@ export default function UTEPAcademicPrograms() {
             <h2>The Results</h2>
             <p>The new Academic Programs section launched alongside a redesigned homepage and delivered impressive results:</p>
         </div>{/* end of narrow container */}
-            
+
             <TemplateFeatures />
-            
+
         </div>{/* end of narrow container */}
     </section>
 
     <section className="w-full py-10 errs">
         <div className="mx-auto w-full max-w-lvw py-20 lg:px-6 pl-6">
-    
+
 
 
         </div>
@@ -418,6 +421,7 @@ export default function UTEPAcademicPrograms() {
         <div className="container-narrow">
 
         </div>
+        <ProjectGrid projects={projects} />
 </div>
   );
 }

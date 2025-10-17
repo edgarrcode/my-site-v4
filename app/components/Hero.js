@@ -22,7 +22,7 @@ export default function Hero() {
                       pauseTime={2000}
                       className="text-3xl sm:text-4xl lg:text-4xl xl:text-7xl tracking-tighter text-balance font-medium leading-tight"
                     />
-                    
+
                     <div className="space-y-4">
                       <p className="text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
                         Edgar is an experienced design technologist who helps organizations achieve their business goals through the strategic implementation of digital products.
@@ -76,15 +76,15 @@ export default function Hero() {
                           height={320}
                           className="rounded-xl lg:rounded-lg object-cover mx-auto lg:mx-0 shadow-2xl group-hover:shadow-3xl transition-all duration-300 w-[280px] h-[320px] sm:w-[320px] sm:h-[360px] lg:w-[400px] lg:h-[440px] xl:w-[498px] xl:h-[549px]"
                         />
-                        
+
                         {/* Subtle gradient overlay for depth */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl lg:rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       </div>
-                      
+
                       {/* Name and title - optimized for mobile */}
                       <div className="mt-4 lg:mt-4 text-center lg:text-left">
                         <p className="text-lg sm:text-xl lg:text-lg font-medium">Edgar E. Rodriguez</p>
-                        <p className="text-gray-400 text-sm sm:text-base lg:text-base">Design Technologist</p>
+                        <p className="text-gray-400 text-sm sm:text-base lg:text-base">Designer & HTML-CSS-JSer</p>
                       </div>
                     </div>
                   </div>
