@@ -13,8 +13,8 @@ export default function UTEPAcademicPrograms() {
     <section>
         <div id="cs-hero" className="container-narrow">
             <div>
-                <h1 className="text-[120px] leading-[0.85] tracking-[-11px] font-semibold">UTEP ACADEMIC PROGRAMS</h1>
-                <p className="px-2 pt-3">Transforming University Program Discovery</p>
+                <h1 className="text-[72px] leading-[0.85] tracking-[-7px] md:text-[120px] md:leading-[0.85] md:tracking-[-11px] font-semibold">UTEP<br/> ACADEMIC PROGRAMS</h1>
+                <p className="px-1 md:px-2 pt-3">Transforming University Program Discovery</p>
             </div>
         </div>
     </section>
@@ -74,7 +74,7 @@ export default function UTEPAcademicPrograms() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
 
                 <div className="col-span-1 md:col-span-2 rounded-xl p-6 py-8 bg-white dark:bg-neutral-900 shadow-sm dark:shadow-neutral-900/20 border border-gray-200 dark:border-neutral-800">
-                    <h2 className="text-xl font-semibold">Primary Audience: Prospective Students</h2>
+                    <span className="text-xl font-semibold">Primary Audience: Prospective Students</span>
                 </div>
 
                 <div>

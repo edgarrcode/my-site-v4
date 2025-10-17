@@ -6,20 +6,20 @@ const FeatureCards = () => {
   return (
     <div className="py-4">
       <div className="container mx-auto">
-        
+
         {/* Container with horizontal scroll for lg and below */}
         <div className="overflow-x-auto lg:overflow-x-auto 2xl:overflow-x-visible scrollbar-hide">
           {/* Grid container */}
           <div className="grid grid-cols-4 gap-6 min-w-max lg:min-w-max 2xl:min-w-0">
-            
+
             {/* Card 1 */}
             <div className="bg-white dark:bg-neutral-900 rounded-lg shadow-lg p-6 h-[600px] w-[366px] 2xl:w-auto flex flex-col">
               <p className="text-sm font-medium mb-2 opacity-80">Prospective Students</p>
               <h2 className="text-2xl font-bold leading-tight mb-4">Discovering possibilities.</h2>
               <div className="flex-1 relative rounded-lg overflow-hidden">
-                <Image 
-                  src="/projects/ap/featured1.png" 
-                  alt="Students studying" 
+                <Image
+                  src="/projects/ap/featured1.png"
+                  alt="Students studying"
                   fill
                   className="object-cover"
                 />
@@ -28,9 +28,9 @@ const FeatureCards = () => {
 
             {/* Card 2 */}
             <div className="bg-white rounded-lg shadow-lg h-[600px] w-[366px] 2xl:w-auto relative overflow-hidden">
-              <Image 
-                src="/projects/ap/featured2.png" 
-                alt="Inspiration" 
+              <Image
+                src="/projects/ap/featured2.png"
+                alt="Inspiration"
                 fill
                 className="object-cover"
                 priority
